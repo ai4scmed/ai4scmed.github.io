@@ -12,5 +12,5 @@ linked below the citation.
 
 
 {% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
+    {% include archive-single.html %}
 {% endfor %}

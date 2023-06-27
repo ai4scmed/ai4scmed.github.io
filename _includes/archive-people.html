@@ -1,0 +1,41 @@
+
+<div class="people">
+    <div class="people-picture">
+    {% if post.image %}
+
+	<img width="150" height="150" src="../assets/img/people/{{ post.image }}"
+	class="attachment-thumbnail size-thumbnail wp-post-image" alt="" />
+    {% else %}
+	<img width="150" height="150" src="../assets/img/people/unknown_person.jpg"
+	class="attachment-thumbnail size-thumbnail wp-post-image" alt="" />
+    {% endif %}
+    </div>
+
+    <div class="people-content">
+	{{ post.content }}
+
+	{% if post.website %}
+	<a href="{{ post.website }}" rel="permalink"><i class="fa fa-fw fa-map-marker fa-2x" aria-hidden="true"></i></a>
+	{% endif %}
+
+	{% if post.github %}
+	<a href="{{ post.github }}" rel="permalink"><i class="fab fa-fw fa-github fa-2x" aria-hidden="true"></i></a>
+	{% endif %}
+
+	{% if post.googlescholar %}
+	<a href="{{ post.googlescholar }}" rel="permalink"><i class="ai ai-google-scholar ai-fw fa-2x" aria-hidden="true"></i></a>
+	{% endif %}
+
+	{% if post.orcid %}
+	<a href="{{ post.orcid }}" rel="permalink"><i class="ai ai-orcid ai-fw fa-2x" aria-hidden="true"></i></a>
+	{% endif %}
+
+	{% if post.twitter %}
+	<a href="{{ post.twitter }}" rel="permalink"><i class="fab fa-twitter fa-2x" aria-hidden="true"></i></a>
+	{% endif %}
+
+	{% if post.osf %}
+	<a href="{{ post.osf }}" rel="permalink"><i class="ai ai-osf ai-fw fa-2x" aria-hidden="true"></i></a>
+	{% endif %}
+    </div>
+</div>

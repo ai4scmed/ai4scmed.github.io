@@ -1,0 +1,56 @@
+
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+<!-- Identify the post title from the ID field -->
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<!-- Figure out what symbol we need -->
+{% if post.collection %}
+  {% assign collection = post.collection %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item" style="margin-left: 40px;">
+  <div class="pub-date">
+    {{ post.year }}
+  </div>
+  <div class="pub-content">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork"> 
+
+    <!-- Create citation -->
+    <p class="archive__item-excerpt" itemprop="description">
+    <!-- Deliver citation -->
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl }}">
+      {{ post.citation }}
+      </a>
+    {% else %}
+      {{ post.citation }}
+    {% endif %}
+    <br>
+
+    <!-- Add links to additional information -->
+    {% if post.oa_paperurl %}
+      <a href="{{ post.oa_paperurl }}" rel="permalink"><i class="ai ai-open-access-square ai-2x"></i></a>
+    {% endif %}
+    {% if post.githuburl %}
+      <a href="{{ post.githuburl }}" rel="permalink"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+    {% endif %}
+    {% if post.osfurl %}
+      <a href="{{ post.osfurl }}" rel="permalink"><i class="ai ai-osf ai-2x"></i></a>
+    {% endif %}
+    {% if post.relatedurl %}
+      <a href="{{ post.relatedurl }}" rel="permalink"><b><font size="+3">∼</font></b></a>
+    {% endif %}
+    </p>
+ </article>
+ </div>
+</div>

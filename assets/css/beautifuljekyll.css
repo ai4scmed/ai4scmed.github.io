@@ -120,8 +120,8 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: #a7d1d9;
-  border-bottom: 1px solid #DDDDDD;
+  background-color: #fff;
+  border-bottom: 3px solid #DDDDDD;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   
   -webkit-transition: padding .5s ease-in-out;
@@ -299,7 +299,7 @@ img {
 .navbar-custom .navbar-nav .nav-link:focus,
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:hover,
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:focus {
-  color: #15516d;
+  color: #066fa1;
 }
 
 .navbar-custom .avatar-container {

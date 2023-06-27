@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Times New Roman', serif;
   font-size: 1.125rem;
   color: #404040;
   position: relative;
@@ -23,8 +23,8 @@ p {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 700;
   line-height: 1.1;
 }
 h1 {
@@ -382,7 +382,7 @@ footer a {
 
 footer a:hover,
 footer a:focus {
-  color: #0085A1;
+  color: #3f99b0;
 }
 
 footer .list-inline {
@@ -448,7 +448,7 @@ footer .footer-custom-content {
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  color: #52adc8;
+  color: #066fa1;
 }
 
 .post-preview .post-title {

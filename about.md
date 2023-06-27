@@ -30,27 +30,3 @@ rhoncus at sapien sed pretium. Etiam sed odio sed dui eleifend venenatis.
 Nulla ornare magna nec condimentum posuere. Nunc non leo id ante aliquet
 accumsan. Duis magna neque, blandit at urna at, gravida consequat mauris.
 Morbi tristique nisi arcu, at tempor arcu egestas ac.
-
-## People
-
-<div class="block">
-{% for post in site.peoples %}
-    {% include archive-people-index.html %}
-{% endfor %}
-
-<br />
-  
-</div>
-
-
-
-
-## Publications
-
-<div class="block">
-
-{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-{% endfor %}
-</div>
-

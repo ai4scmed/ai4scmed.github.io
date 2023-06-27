@@ -169,8 +169,8 @@ img {
 }
 
 .navbar-custom .navbar-nav .nav-item {
-  text-transform: uppercase;
-  font-size: 0.8125rem;
+  text-transform: capitalize;
+  font-size: 1.1rem;
   letter-spacing: 0.0625rem;
 }
 
@@ -185,7 +185,7 @@ img {
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav .nav-link {
   font-weight: 800;
-  color: #EAEAEA;
+  color: #15516d;
 }
 
 .navbar-toggler {

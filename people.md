@@ -1,7 +1,6 @@
 ---
 layout: page
 title: People
-subtitle: More about us…
 ---
 
 ## Permanent staff

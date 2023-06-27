@@ -1,19 +1,28 @@
 {% include base_path %}
 
+<!-- Grab teaser, if we have it -->
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
   {% assign teaser = site.teaser %}
 {% endif %}
 
+<!-- Identify the post title from the ID field -->
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% else %}
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
+<!-- Figure out what symbol we need -->
+{% if post.collection %}
+  {% assign collection = post.collection %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item" style="margin-left: 40px;">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+
+    <!-- Add teaser, if we have it -->
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -26,39 +35,40 @@
       </div>
     {% endif %}
 
-    <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-      {% endif %}
-    </h2>
+    <!-- Create citation -->
+    <p class="archive__item-excerpt" itemprop="description">
 
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+    <!-- Add symbol for publication collection -->
+    <!-- {% if collection == "publications" %}
+      <i class="fa fa-align-left"></i>
     {% endif %}
-
-    {% if post.collection == 'teaching' %}
-      <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-    {% elsif post.collection == 'publications' %}
-      <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-    {% elsif post.date %}
-     <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+    {% if collection == "proceedings" %}
+      <i class="fa fa-child"></i>
     {% endif %}
+    {% if collection == "chapter" %}
+      <i class="fa fa-bookmark"></i>
+    {% endif %} -->
 
-    {% if post.excerpt and site.read_more != 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
-    {% elsif post.excerpt and site.read_more == 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+    <!-- Deliver citation -->
+    {{ post.citation }}
+    <br>
+
+    <!-- Add links to additional information -->
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl }}" rel="permalink"><i class="fas fa-file-pdf fa-2x" aria-hidden="true"></i></a>
     {% endif %}
-
-    {% if post.citation and post.paperurl %}
-      <p>{{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
-    {% elsif post.citation %}
-      <p>{{ post.citation }} </p>
-    {% elsif post.paperurl %}
-      <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
+    {% if post.oa_paperurl %}
+      <a href="{{ post.oa_paperurl }}" rel="permalink"><i class="ai ai-open-access-square ai-2x"></i></a>
     {% endif %}
-
-  </article>
+    {% if post.githuburl %}
+      <a href="{{ post.githuburl }}" rel="permalink"><i class="fab fa-fw fa-github fa-2x" aria-hidden="true"></i></a>
+    {% endif %}
+    {% if post.osfurl %}
+      <a href="{{ post.osfurl }}" rel="permalink"><i class="ai ai-osf ai-2x"></i></a>
+    {% endif %}
+    {% if post.relatedurl %}
+      <a href="{{ post.relatedurl }}" rel="permalink"><b><font size="+3">∼</font></b></a>
+    {% endif %}
+    </p>
+ </article>
 </div>

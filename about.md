@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ai4scmed
-subtitle: ai4scmed
+subtitle: multiscale AI for single-cell based precision medicine
 permalink: /
 redirect_from:
   - /about/
@@ -20,13 +20,13 @@ Suspendisse ligula odio, dictum viverra diam ut, auctor ullamcorper orci.
 Phasellus mattis nibh vitae pretium interdum. Vivamus ac egestas ipsum, eget
 luctus quam.
 
-Morbi placerat enim vel sapien rhoncus maximus. Proin non lacus et turpis
-ultricies fermentum ut ac risus. Interdum et malesuada fames ac ante ipsum
-primis in faucibus. Donec ut odio dui. Ut et sem nec ipsum convallis cursus
-sit amet sit amet risus. Sed feugiat ornare ullamcorper. Morbi odio eros,
-congue in lectus quis, aliquam ornare ipsum. Fusce feugiat dignissim diam at
-pharetra. Donec velit nulla, bibendum a volutpat at, pretium ut nibh. Etiam
-rhoncus at sapien sed pretium. Etiam sed odio sed dui eleifend venenatis.
-Nulla ornare magna nec condimentum posuere. Nunc non leo id ante aliquet
-accumsan. Duis magna neque, blandit at urna at, gravida consequat mauris.
-Morbi tristique nisi arcu, at tempor arcu egestas ac.
+
+# WP1: Characterizing cellular heterogeneities by joint analyses
+
+- High Dimensional sparse data, stratified
+- Joint multiple analysis
+- Integrate heterogeneous data for gene
+- expression regulation
+- Inference of Gene regulatory networks
+- Differential analysis on complex
+- gene-expression distributions

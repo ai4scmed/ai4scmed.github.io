@@ -43,11 +43,11 @@ h1, h2, h3, h4 {
   margin-top: 1.25rem;
 }
 a {
-  color: #15516d;
+  color: #066fa1;
 }
 a:hover,
 a:focus {
-  color: #066fa1;
+  color: #3f99b0;
 
 }
 blockquote {
@@ -185,7 +185,7 @@ img {
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav .nav-link {
   font-weight: 800;
-  color: #15516d;
+  color: #066fa1;
 }
 
 .navbar-toggler {
@@ -299,7 +299,7 @@ img {
 .navbar-custom .navbar-nav .nav-link:focus,
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:hover,
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:focus {
-  color: #066fa1;
+  color: #3f99b0;
 }
 
 .navbar-custom .avatar-container {
@@ -448,7 +448,7 @@ footer .footer-custom-content {
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  color: #066fa1;
+  color: #3f99b0;
 }
 
 .post-preview .post-title {
@@ -1093,7 +1093,7 @@ pre {
 }
 
 article a {
-    color: #066fa1;
+    color: #3f99b0;
 }
 
 article a:hover {

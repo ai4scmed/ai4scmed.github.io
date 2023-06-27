@@ -1,7 +1,7 @@
 ---
 layout: page
-title: acronym
-subtitle: full grant title
+title: ai4scmed
+subtitle: ai4scmed
 permalink: /
 redirect_from:
   - /about/

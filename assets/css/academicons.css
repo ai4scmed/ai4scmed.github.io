@@ -325,3 +325,10 @@
 .fa.fa-pull-right {
   margin-left: .3em;
 }
+
+.fa, .fab, .fad, .fal, .far, .fas {
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 0;
+}

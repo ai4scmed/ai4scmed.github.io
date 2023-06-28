@@ -343,8 +343,8 @@ img {
 
 @media (min-width: 1200px) {
   .navbar-custom.top-nav-regular .avatar-container {
-    width: 8rem;
-    bottom: -4rem;
+    width: 10rem;
+    bottom: -5rem;
   }
 
   .navbar-custom.top-nav-regular .avatar-container .avatar-img-border {
@@ -609,7 +609,7 @@ footer .footer-custom-content {
 /* --- Post and page headers --- */
 
 .intro-header {
-  margin: 10rem 0 1.25rem;
+  margin: 12rem 0 1.25rem;
   position: relative;
 }
 .intro-header.big-img {

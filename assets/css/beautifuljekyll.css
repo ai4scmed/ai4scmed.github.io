@@ -1183,6 +1183,7 @@ article a:hover {
     height: 100px;
     overflow: hidden;
     z-index: 0;
+    border: solid 2px #DDD;
 }
 
 .people-picture::after {

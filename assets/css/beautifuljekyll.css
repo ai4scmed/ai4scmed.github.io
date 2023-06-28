@@ -370,7 +370,7 @@ footer {
   font-size: 0.875rem;
   background-color: #EAEAEA;
   bottom: 0rem;
-  position: absolute;
+  position: fixed;
   width: 100%;
   
 }

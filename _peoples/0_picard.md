@@ -6,4 +6,5 @@ image:
 permalink: /people/franck_picard
 ---
 
+Franck Picard
 

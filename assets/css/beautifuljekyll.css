@@ -11,9 +11,9 @@ body {
   font-size: 1.125rem;
   color: #404040;
   position: relative;
-  background-color: #FFFFFF;
-  
+  background-color: #FFFFFF;  
   overflow-wrap: break-word;
+  min-height: 100vh;
 }
 
 p {
@@ -369,6 +369,9 @@ footer {
   margin-top: 3.125rem;
   font-size: 0.875rem;
   background-color: #EAEAEA;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
   
 }
 

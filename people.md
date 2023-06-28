@@ -1,6 +1,6 @@
 ---
 layout: page
-title: People
+title: Members
 ---
 
 {% for post in site.peoples %}

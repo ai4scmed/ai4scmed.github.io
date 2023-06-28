@@ -1182,9 +1182,6 @@ article a:hover {
     width: 100px;
     height: 100px;
     overflow: hidden;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
     z-index: 0;
 }
 
@@ -1203,9 +1200,6 @@ article a:hover {
     -ms-transition: all .4s ease;
     -o-transition: all .4s ease;
     transition: all .4s ease;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
     width: 100px;
     height: 100px;
 }

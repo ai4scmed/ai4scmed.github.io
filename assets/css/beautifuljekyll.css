@@ -105,6 +105,10 @@ img {
   margin-top: -1.5625rem;
 }
 
+.container-md {
+    margin-bottom: 3rem;
+}
+
 /* Comments */
 
 .disqus-comments {
@@ -1321,8 +1325,12 @@ div.block {
 }
 
 div.wp {
-    margin-top: 1px;
-    margin-bottom: 1px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+div.wp h2 {
+    font-size: 1.125rem;
 }
 
 div.wp-picture-1, div.wp-picture-3 {

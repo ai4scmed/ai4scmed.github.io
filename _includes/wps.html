@@ -1,0 +1,16 @@
+
+<div class="wp">
+    <div class="wp-picture-{{post.wpnum}}">
+    {% if post.image %}
+
+	<img width="150" height="150" src="../assets/img/wp/{{ post.image }}"
+	class="attachment-thumbnail size-thumbnail wp-post-image" alt="" />
+    {% else %}
+	<img width="150" height="150" src="../assets/img/wp/unknown_person.jpg"
+	class="attachment-thumbnail size-thumbnail wp-post-image" alt="" />
+    {% endif %}
+    </div>
+
+    <div class="wp-content">
+	{{ post.content }}
+</div>

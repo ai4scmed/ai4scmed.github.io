@@ -20,13 +20,7 @@ Suspendisse ligula odio, dictum viverra diam ut, auctor ullamcorper orci.
 Phasellus mattis nibh vitae pretium interdum. Vivamus ac egestas ipsum, eget
 luctus quam.
 
+{% for post in site.wps %}
+    {% include wps.html %}
+{% endfor}
 
-# WP1: Characterizing cellular heterogeneities by joint analyses
-
-- High Dimensional sparse data, stratified
-- Joint multiple analysis
-- Integrate heterogeneous data for gene
-- expression regulation
-- Inference of Gene regulatory networks
-- Differential analysis on complex
-- gene-expression distributions

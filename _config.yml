@@ -225,6 +225,9 @@ collections:
   peoples:
     output: true
     permalink: /:collection/:path/
+  wps:
+    output: true
+    permalink: /:collection/:path
 
 
 # Default YAML values (more information on Jekyll's site)

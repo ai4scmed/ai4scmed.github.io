@@ -1320,12 +1320,19 @@ div.block {
     display: inline-block; 
 }
 
+div.wp {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
 div.wp-picture-1, div.wp-picture-3 {
+    padding-right: 1em;
     display: block;
     float: left;
 }
 
 div.wp-picture-2, div.wp-picture-4 {
+    padding-left: 1em;
     display: block;
     float: right;
 }

@@ -22,5 +22,5 @@ luctus quam.
 
 {% for post in site.wps %}
     {% include wps.html %}
-{% endfor}
+{% endfor %}
 

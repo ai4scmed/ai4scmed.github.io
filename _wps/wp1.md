@@ -2,7 +2,7 @@
 wpnum: 1
 title: "WP1: Characterizing cellular heterogeneities"
 collection: wps
-permalink: /people/nelle_varoquaux
+permalink: /wps/wp1
 image: slide_wp1.png
 ---
 

@@ -1319,3 +1319,13 @@ div.block {
     width: 100%;
     display: inline-block; 
 }
+
+div.wp-picture-1, div.wp-picture-3 {
+    display: block;
+    float: left;
+}
+
+div.wp-picture-2, div.wp-picture-4 {
+    display: block;
+    float: right;
+}

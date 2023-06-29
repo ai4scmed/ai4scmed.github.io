@@ -3,7 +3,7 @@ wpnum: 2
 title: "WP2: Investigating cellular ecosystems by multimodal data integration"
 collection: wps
 permalink: /wps/wp2
-image: slide_wp1.png
+image: slide_wp2.png
 ---
 
 

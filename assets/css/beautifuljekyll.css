@@ -65,6 +65,10 @@ hr.small {
   border-radius: 0.1875rem;
 }
 
+div.main-content {
+    padding-bottom: 10rem;
+}
+
 /* fix in-page anchors to not be behind fixed header */
 :target:before {
   content: "";
@@ -103,10 +107,6 @@ img {
 .linked-section {
   padding-top: 3.75rem;
   margin-top: -1.5625rem;
-}
-
-div.container-md {
-    padding-bottom: 10rem;
 }
 
 /* Comments */
@@ -1344,3 +1344,4 @@ div.wp-picture-2, div.wp-picture-4 {
     display: block;
     float: right;
 }
+

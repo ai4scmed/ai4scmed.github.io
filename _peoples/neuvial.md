@@ -3,7 +3,7 @@ title: "Pierre Neuvial"
 name: "Pierre Neuvial"
 collection: peoples
 permalink: /people/pierre_neuvial
-image: pierre.jpg
+image: pierre.png
 position: "Permanent researcher"
 website: "https://www.math.univ-toulouse.fr/~pneuvial"
 github: "https://github.com/pneuvial"

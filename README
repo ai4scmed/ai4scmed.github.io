@@ -29,7 +29,7 @@ To be noted:
 
 Members are compiled automatically from the markdown files in `_peoples`.
 
-- To add a picture, add the images in `assets/img/people/` and update the
+- To add a picture, (git) add the image in `assets/img/people/` and update the
   header.
 - Here's an example of template:
 

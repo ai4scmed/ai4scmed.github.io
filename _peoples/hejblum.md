@@ -1,7 +1,7 @@
 ---
 title: "Boris Hejblum"
 name: "Boris Hejblum"
-image: https://borishejblum.science/img/bh.png
+image: boris.jpg
 collection: peoples
 permalink: /people/boris_hejblum
 website: "https://borishejblum.science/"

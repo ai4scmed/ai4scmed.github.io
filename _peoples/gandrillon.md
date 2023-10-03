@@ -8,4 +8,6 @@ position: "Permanent researcher"
 website: "https://www.ens-lyon.fr/LBMC/equipes/systems-biology-of-decision-making"
 ---
 
-**Olivier Gandrillon**
+**Olivier Gandrillon is a biologist by training and became a systems biologist thank's to multiple interactions with non-biologists colleagues
+He leads the [Systems Biology of Decision Making group](https://www.ens-lyon.fr/LBMC/equipes/systems-biology-of-decision-making) and is a member of the [Dracula group](https://team.inria.fr/dracula/fr/).
+ **

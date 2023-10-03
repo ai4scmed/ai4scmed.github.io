@@ -2,10 +2,10 @@
 title: "Fabien Crauste"
 name: "Fabien Crauste"
 collection: peoples
-image:
+image: fabien.png
 permalink: /people/fabien_crauste
 position: "Senior Scientist"
-github: "http://fcrauste.perso.math.cnrs.fr/"
+website: "http://fcrauste.perso.math.cnrs.fr/"
 googlescholar: "https://scholar.google.fr/citations?user=pAmXnd4AAAAJ&hl=fr"
 ---
 

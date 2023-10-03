@@ -1,9 +1,14 @@
 # HOW TO update stuff on our wonderful website
 
+
 * Log into your github account and make sure the computer you are on has been listed through a ssh key
 * Clone the repo:
 
 `git clone git@github.com:ai4scmed/ai4scmed.github.io.git`
+
+If you have an authentification error,  try using the https protocol
+
+`git clone https://github.com/ai4scmed/ai4scmed.github.io.git`
 
 
 Now the fun can start!
@@ -54,21 +59,4 @@ Members are compiled automatically from the markdown files in `_peoples`.
 
 ## Adding publications
 
-The template is the following:
-
-
-	---
-	title: "Identification of protein secretion systems in bacterial genomes"
-	collection: publications
-	permalink: /publication/2016-abby_curry
-	venue: Scientific Reports
-	citation: '<b>Abby, S.</b>, Cury, J., Guglielmini, J., Néron, B., Touchon, M., and
-	Rocha, E. (2016). Identification of protein secretion systems in bacterial
-	genomes. <i> Scientific Reports</i>,'
-	oa_paperurl: https://www.nature.com/articles/srep23080
-	githuburl: 'https://github.com/gem-pasteur/macsyfinder'
-	year: 2016
-	---
-
-If you are lazy and would like to create these automatically, please follow
-instructions from [scripts/README.md](https://github.com/TrEE-TIMC/compbio/blob/gh-pages/scripts/README.md)
+We will use HAL to deposit publications and automatically create a publication list. More to come on that matter later.

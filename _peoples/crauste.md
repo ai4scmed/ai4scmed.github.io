@@ -2,8 +2,11 @@
 title: "Fabien Crauste"
 name: "Fabien Crauste"
 collection: peoples
+image:
 permalink: /people/fabien_crauste
-position: "Permanent researcher"
+position: "Senior Scientist"
+github: "http://fcrauste.perso.math.cnrs.fr/"
+googlescholar: "https://scholar.google.fr/citations?user=pAmXnd4AAAAJ&hl=fr"
 ---
 
-**Fabien Crauste**
+**[Fabien Crauste](http://fcrauste.perso.math.cnrs.fr/)** is a CNRS senior scientist at Université Paris Cité, laboratory [MAP5](https://map5.mi.parisdescartes.fr/). He is specialized in mathematical and computational modeling of cell differentiation processes, with a specific focus on the immune response.

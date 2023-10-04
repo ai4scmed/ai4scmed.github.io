@@ -3,7 +3,7 @@ title: "Ulysse Herbach"
 name: "Ulysse Herbach"
 collection: peoples
 permalink: /people/ulysse_herbach
-image: ulysse.jpg
+image: ulysse.png
 position: "Permanent researcher"
 website: "https://herbach.perso.math.cnrs.fr"
 github: "https://github.com/ulysseherbach"

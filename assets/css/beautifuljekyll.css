@@ -1205,8 +1205,9 @@ article a:hover {
     -ms-transition: all .4s ease;
     -o-transition: all .4s ease;
     transition: all .4s ease;
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .people:hover .people-picture img {

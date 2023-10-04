@@ -7,7 +7,11 @@ image: slide_wp4.png
 ---
 
 
-- Investigate the multiscale heterogeneity of tumors
+- Development of dynamical computational and mathematical multiscale models
 - Interacting scales, from molecules to tissue, the cell being at the center stage
-- Model the dynamics of spatial interactions that shape the hetereogeneities of GoT
+- Modeling the multiscale dynamics of spatial interactions shaping heterogeneity of gonadotroph tumors
+- Investigate multiscale mechanisms underlying ovarian development and their changes all along reproductive lifespan
+- In silico testing of novel treatments in a patient-centered manner
+
+
 

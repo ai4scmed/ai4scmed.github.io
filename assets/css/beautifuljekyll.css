@@ -82,8 +82,8 @@ div.main-content {
 }
 
 ::-moz-selection {
-  color: #fff;
-  text-shadow: none;
+  /*! color: #fff; */
+  /*! text-shadow: none; */
   /*! background-color: #52adc8; */
 }
 ::selection {

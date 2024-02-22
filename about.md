@@ -1,7 +1,7 @@
 ---
 layout: page
-title: ai4scmed
-subtitle: multiscale AI for single-cell based precision medicine
+title: AI4scMed
+subtitle: Multiscale AI for single-cell based precision medicine
 permalink: /
 redirect_from:
   - /about/
@@ -10,9 +10,9 @@ redirect_from:
 
 # General Presentation
 
-AI4scMed is a consortium (2023-2027) from the [PEPR Santé Numérique](https://www.inria.fr/fr/pepr-sante-numerique-projets) headed by INRIA-INSERM. It gathers researchers from different institutions on AI developments for single-cell biology applied to precision medicine.
+<img width="150" src="../assets/img/funding/france2030.png" style="float: right; margin-left: 20px; clear:both;"/>
 
-<img src="../assets/img/funding/france2030.png"/>
+AI4scMed is a consortium (2023-2027) from the [PEPR Santé Numérique](https://www.inria.fr/fr/pepr-sante-numerique-projets) (project 22-PESN-0002) headed by INRIA-INSERM. It gathers researchers from different institutions on AI developments for single-cell biology applied to precision medicine.
 
 # Abstract 
 

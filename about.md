@@ -10,9 +10,9 @@ redirect_from:
 
 # General Presentation
 
-<img width="150" src="../assets/img/funding/france2030.png" style="float: right; margin-left: 20px; clear:both;"/>
+<img width="150" src="../assets/img/funding/france2030.png" style="float: right; margin-left: 30px; clear:both;"/>
 
-AI4scMed is a consortium (2023-2027) from the [PEPR Santé Numérique](https://www.inria.fr/fr/pepr-sante-numerique-projets) (project 22-PESN-0002) headed by INRIA-INSERM. It gathers researchers from different institutions on AI developments for single-cell biology applied to precision medicine.
+AI4scMed is a consortium (2023-2027) from the [PEPR Santé Numérique](https://www.inria.fr/fr/pepr-sante-numerique-projets) (project no. 22-PESN-0002) headed by INRIA-INSERM. It gathers researchers from different institutions on AI developments for single-cell biology applied to precision medicine.
 
 # Abstract 
 

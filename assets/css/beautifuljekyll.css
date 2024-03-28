@@ -26,8 +26,8 @@ ul {
   line-height: 1.6;
 }
 
-li.menu-item:not(:last-child) { 
-   margin-bottom: 3px;  
+li {
+  margin: 10px 0;
 }
 
 h1,h2,h3,h4,h5,h6 {

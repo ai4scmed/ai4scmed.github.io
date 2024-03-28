@@ -13,7 +13,7 @@ body {
   position: relative;
   background-color: #FFFFFF;  
   overflow-wrap: break-word;
-  min-height: 100vh;
+  /*min-height: 100vh;*/
 }
 
 p {

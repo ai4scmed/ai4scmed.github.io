@@ -11,4 +11,4 @@ googlescholar: "https://scholar.google.com/citations?sortby=pubdate&hl=en&user=x
 orcid: "https://orcid.org/0000-0003-0646-452X"
 ---
 
-**[Boris Hejblum](https://borishejblum.science/)** is a researcher in Biostatistics at [Inserm U1219 *Bordeaux Population Health*](https://www.bordeaux-population-health.center/) in the [SISTM team](https://www.bordeaux-population-health.center/the-teams/sistm/). His research focuses on the development of statistical methods for the analysis of longitudinal observation of high-throughput biomedical data, in particular for stuying gene expression in human vaccine trials.
+**[Boris Hejblum](https://borishejblum.science/)** is a researcher in Biostatistics at [Inserm U1219 *Bordeaux Population Health*](https://www.bordeaux-population-health.center/) in the [SISTM team](https://www.bordeaux-population-health.center/the-teams/sistm/). His research focuses on the development of statistical methods for the analysis of longitudinal high-throughput biomedical data, in particular for stuying gene expression in human vaccine trials.

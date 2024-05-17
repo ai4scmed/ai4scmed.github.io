@@ -7,31 +7,41 @@ html {
 }
 
 body {
-  font-family: 'lato', 'Times New Roman', serif;
-  font-size: 1.125rem;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  /*font-size: 1.125rem;*/
   color: #404040;
   position: relative;
   background-color: #FFFFFF;  
   overflow-wrap: break-word;
-  min-height: 100vh;
+  /*min-height: 100vh;*/
 }
 
 p {
-  line-height: 1.5;
+  line-height: 1.6;
   margin: 1.875rem 0;
   text-align: justify;
 }
 
+ul {
+  line-height: 1.6;
+  margin-bottom: 50px;
+}
+
+li {
+  margin: 10px 0;
+}
+
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 1.2;
 }
 h1 {
   font-size: 2.25rem;
 }
 h2 {
   font-size: 1.875rem;
+  margin: 25px 0;
 }
 h3 {
   font-size: 1.5rem;
@@ -65,9 +75,9 @@ hr.small {
   border-radius: 0.1875rem;
 }
 
-div.main-content {
+/*div.main-content {
     padding-bottom: 10rem;
-}
+}*/
 
 /* fix in-page anchors to not be behind fixed header */
 :target:before {
@@ -377,7 +387,7 @@ img {
 footer {
   padding: 1.875rem 0;
   border-top: 1px #EAEAEA solid;
-  margin-top: 3.125rem;
+  /*margin-top: 3.125rem;*/
   font-size: 0.875rem;
   background-color: #EAEAEA;
   bottom: 0rem;
@@ -402,7 +412,7 @@ footer a:focus {
 footer .list-inline {
   margin: 0;
   padding: 0;
-  margin-bottom: 1.875rem;
+  /*margin-bottom: 1.875rem;*/
 }
 footer .copyright {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -418,6 +428,10 @@ footer .footer-custom-content {
   text-align: center;
   margin-bottom: 0.9375rem;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.list-inline.text-center.footer-links {
+  height: 50px;
 }
 
 @media (min-width: 768px) {

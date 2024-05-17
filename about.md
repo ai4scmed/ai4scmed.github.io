@@ -20,7 +20,7 @@ Cell-based precision medicine holds revolutionary potential for healthcare, but 
 
 Addressing the complexity of the human body and combining genomics with other assays, we will develop AI-based methods to handle, integrate, analyze, and visualize multiscale complexity in diseases. Our developments will leverage cutting-edge AI for sc-genomic data analysis. To infer causal mechanisms at different levels, we'll use causal/logical/stochastic modeling to integrate heterogeneous data and account for temporal scales and biophysical priors.
 
-We'll create network inference methods to understand molecular mechanisms in clinical samples, identifying key genes and predicting therapeutic impacts. Precision medicine must also integrate variability across different cell decision levels. We aim to build predictive models, digital twins, to enable data-driven personalized treatments by connecting intracellular dynamics, biochemical processes, cell populations, and tissue-level organization.
+We will create network inference methods to understand molecular mechanisms in clinical samples, identifying key genes and predicting therapeutic impacts. Precision medicine must also integrate variability across different cell decision levels. We aim to build predictive models, digital twins, to enable data-driven personalized treatments by connecting intracellular dynamics, biochemical processes, cell populations, and tissue-level organization.
 
 {% for post in site.wps %}
     {% include wps.html %}

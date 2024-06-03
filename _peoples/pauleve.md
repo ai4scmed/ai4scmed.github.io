@@ -4,7 +4,7 @@ name: "Loïc Paulevé"
 collection: peoples
 permalink: /people/loic_pauleve
 position: "Permanent researcher"
-image: pauleve.jpg
+image: loic.jpg
 website: "https://loicpauleve.name"
 github: "https://github.com/pauleve"
 googlescholar: "https://scholar.google.fr/citations?user=Lcdry6AAAAAJ&hl=en"

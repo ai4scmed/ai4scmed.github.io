@@ -2,7 +2,7 @@
 title: "Thi Nhu Thao Nguyen"
 name: "Thi Nhu Thao Nguyen"
 collection: peoples
-image: nguyen.png
+image: thao.jpg
 permalink: /people/thao_nguyen
 position: "Postdoc Fellow"
 website: "https://sites.google.com/site/thinhuthaonguyen1123/"

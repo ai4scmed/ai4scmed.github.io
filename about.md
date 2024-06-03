@@ -8,13 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-# General Presentation
-
 <img width="150" src="../assets/img/funding/france2030.png" style="float: right; margin-left: 30px; clear:both;"/>
 
 AI4scMed is a consortium (2023-2027) from the [PEPR Santé Numérique](https://www.inria.fr/fr/pepr-sante-numerique-projets) (project no. 22-PESN-0002) headed by INRIA-INSERM. It gathers researchers from different institutions on AI developments for single-cell biology applied to precision medicine.
 
-# Abstract 
+# General Presentation
 
 Cell-based precision medicine holds revolutionary potential for healthcare, but realizing its full potential demands a deep understanding of disease variability and multiscale aspects. Single-cell (sc) multi-omics offers a unique way to obtain molecular profiles of individual cells and predict disease trajectories. To harness this complexity, new AI breakthroughs are needed. Our consortium will tackle methodological challenges to bridge the gap between sc data and personalized treatments, resolving cell type differences and integrating sc-multi-omics with imaging for spatial insights.
 

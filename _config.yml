@@ -15,7 +15,7 @@ author: AI4scMed
 
 navbar-links:
     Members: "people"
-    Publications: "publications"
+    Publications: https://hal.science/search/index?q=ai4scmed
     Software: "softwares"
     Events: "events"
 

@@ -2,7 +2,8 @@
 title: "Elisabeth Remy"
 name: "Elisabeth Remy"
 collection: peoples
-permalink: [/people/elisabeth_remy](https://mabios.math.cnrs.fr/perso/remy.html)
+permalink: /people/elisabeth_remy
+website: "https://mabios.math.cnrs.fr/perso/remy.html"
 position: "Permanent researcher"
 ---
 

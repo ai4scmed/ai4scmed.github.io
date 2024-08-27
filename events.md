@@ -2,6 +2,7 @@
 layout: page
 title: Events
 ---
+- **September, 25th, 2024** - Novel testing procedures for single-cell data in clinical trials, in Bordeaux
 - **February, 16th, 2024** - ai4scmed meeting in Lyon!
 - **February, 6th, 2024** - WP4 group meeting in Paris: Thi Nhu Thao Nguyen starts her postdoc this month, members of WP4 welcomed her, and discussions focused on scientific questions that will be dealt with in the coming months
 - **November, 24th, 2023** - PhD defense of Anthony Ozier-Lafontaine in Nantes, partly funded by ai4scmed

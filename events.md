@@ -2,6 +2,8 @@
 layout: page
 title: Events
 ---
+- **June, 30 June – 4 July , 2025** - [Mathematics of Single-Cell Data Analysis][https://conferences.cirm-math.fr/3344.html], Marseille
+- **January, 24-25th, 2025** - [Statistical Methods for Post Genomic Data][https://smpgd2025.sciencesconf.org], Heidelberg 
 - **October, 1st, 2024** - Pawan Kumar starts his postdoc this month, he'll work on the development of a multiscale model of oocyte development (WP4)
 - **September, 25th, 2024** - Novel testing procedures for single-cell data in clinical trials, in Bordeaux
 - **February, 16th, 2024** - ai4scmed meeting in Lyon!

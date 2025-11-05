@@ -7,7 +7,7 @@ image: slide_wp1.png
 ---
 
 - High-dimensional sparse & stratified data,
-- Joint multiple smaples analysis
+- Joint multiple samples analysis
 - Differential analysis on complex gene-expression distributions
 - Integrate heterogeneous data for gene expression regulation
 - Inference of gene regulatory networks

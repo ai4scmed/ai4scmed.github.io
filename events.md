@@ -2,6 +2,7 @@
 layout: page
 title: Events
 ---
+- **March, 19-20, 2026** - ai4scmed annual meeting in Lyon
 - **October, 5th-10th, 2025** - [CompSysBio 2025](https://project.inria.fr/compsysbio2025/), Aussois
 - **June, 30 June – 4 July , 2025** - [Mathematics of Single-Cell Data Analysis](https://conferences.cirm-math.fr/3344.html), Marseille
 - **January, 24-25th, 2025** - [Statistical Methods for Post Genomic Data](https://smpgd2025.sciencesconf.org), Heidelberg 

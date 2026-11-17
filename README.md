@@ -4,11 +4,11 @@
 * Log into your github account and make sure the computer you are on has been listed through a ssh key
 * Clone the repo:
 
-`git clone git@github.com:ai4scmed/ai4scmed.github.io.git`
+`git clone git@github.com:inside2030/inside2030.github.io.git`
 
 If you have an authentification error,  try using the https protocol
 
-`git clone https://github.com/ai4scmed/ai4scmed.github.io.git`
+`git clone https://github.com/inside2030/inside2030.github.io.git`
 
 
 Now the fun can start!

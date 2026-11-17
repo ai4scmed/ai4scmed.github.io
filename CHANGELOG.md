@@ -1,3 +1,7 @@
+## v6.0.0 (2026-11-17)
+
+- Fork for the inside2030 project (PEPR SantéNum)
+
 ## Unreleased version
 
 - Added `post_search` config setting that creates a Search button in the navbar (older websites need to set `post_search: true` to enable this feature) (#770)
